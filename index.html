@@ -5,7 +5,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="manifest" href="/manifest.json">
     <title>Wootton Hack Club Member Portal</title>
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
@@ -20,11 +19,6 @@
             safari_web_id: 'web.onesignal.auto.6514249a-4cb8-451b-a889-88f5913c9a7f'
         }]);
     </script>
-    <style>
-        .tap-target-wave {
-            visibility: hidden;
-        }
-    </style>
 </head>
 
 <body>
@@ -33,23 +27,6 @@
     <div class="fixed-action-btn" style="visibility: hidden;">
         <a class="btn-floating btn-large red" id="menu"> </a>
     </div>
-    <div class="tap-target" data-activates="onesignal-bell-launcher">
-        <div class="tap-target-content">
-            <h5>Click this button and hit "subscribe".</h5>
-            <p>Allow any permission requests if prompted.</p>
-        </div>
-    </div>
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-    <script>
-        $(function () {
-            setTimeout(function () {
-                $('.tap-target').tapTarget('open');
-            }, 2000);
-
-        });
-    </script>
 </body>
 
 </html>
