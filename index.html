@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "271871bb-2448-4cf0-824b-f16bb4e2be22",
+      autoRegister: false, /* Set to true to automatically prompt visitors */
+      subdomainName: 'https://mdhack.onesignal.com',
+      httpPermissionRequest: {
+        enable: true
+      },
+      notifyButton: {
+          enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
+</head>
+
+<body>
+    <h1>Please subscribe to notifications, click allow.</h1>
+</body>
+</html>
